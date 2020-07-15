@@ -1,5 +1,3 @@
-
-
 //2 asyn await
 console.log(1)
 async function A() {

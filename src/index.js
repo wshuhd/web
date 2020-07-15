@@ -18,23 +18,28 @@ class WJClassComp extends React.Component {
             address: address
         })
     }
-    getData = ()=>{
+    getData = () => {
         console.log('http get data...');
     }
 
-    componentDidMount(){
+    componentDidMount() {
         console.log('this is didMount...')
     }
 
-    shouldComponentUpdate(){
+    shouldComponentUpdate() {
         console.log('this is shouldCompoentUpdate...')
     }
 
 
     render() {
-        return <div onClick={() => { this.updateAddress('liuan') }}>this is react component.
-            <Count />
-        </div>
+        return (
+            <div class="main" id='root'>
+                <div class="div1"></div>
+                <div onClick={() => { this.updateAddress('liuan') }}>this is react component.
+                    <Count />
+                </div>
+            </div>
+        )
     }
 }
 // export default WJClassComp;
@@ -42,7 +47,7 @@ class WJClassComp extends React.Component {
 ReactDOM.render(
     <div>
         this is render block
-        <WJClassComp/>
+        <WJClassComp />
     </div>,
     document.getElementById('root')
 )

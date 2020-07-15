@@ -1,5 +1,4 @@
 //1 普通异步
-
 console.log(1);
 setTimeout(() => {
     console.log(2)
