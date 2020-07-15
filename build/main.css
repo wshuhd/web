@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main div {
+  width: 100px;
+  height: 100px;
+}
+.main .div1 {
+  background-color: black;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
