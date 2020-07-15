@@ -1,0 +1,35 @@
+/* 正常情况下fixed布局是相对视图窗口 
+如果需要相对 父级，则为父级设置transform是一个办法
+*/
+
+*{
+    margin: 0;
+    padding: 0
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 1px solid lightgoldenrodyellow
+}
+
+
+.div1{
+    margin-bottom: 50px;
+  
+}
+.div2{
+    margin-top: 50px;
+    /* 父级设置一个transform属性可以使子元素fixed布局相对该父级 */
+    transform: translate(0,0)
+
+}
+
+.div3{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
