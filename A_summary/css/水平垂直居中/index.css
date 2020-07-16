@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.main{
+    border: 1px solid lightblue;
+    width: 500px;
+    height: 300px;
+}
+
+.subdiv{
+    background-color: lightgreen;
+    height: 50px;
+    width: 80px;
+}
+/* 1.flex */
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 2.绝对定位各方向偏移量0 + margin:auto 自适应 */
+/* .main{
+    position: relative;
+}
+.subdiv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+} */
+
+/* 3.绝对定位 偏移50% + 反向反向自身一半高宽 */
+/* .main{
+    position: relative;
+}
+.subdiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+
