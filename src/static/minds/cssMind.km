@@ -1,0 +1,750 @@
+{
+    "root": {
+        "data": {
+            "id": "c48tayio5u00",
+            "created": 1594980230489,
+            "text": "css"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c48tb25gd400",
+                    "created": 1594980238397,
+                    "text": "盒模型",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c48tzhwrp0w0",
+                            "created": 1594982153440,
+                            "text": "ie标准盒模型",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c48tzx4scf40",
+                                    "created": 1594982186577,
+                                    "text": "设置的大小即为内容的大小",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c48tzl0u0hk0",
+                            "created": 1594982160216,
+                            "text": "怪异盒模型",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c48u0aahk740",
+                                    "created": 1594982215220,
+                                    "text": "设置的大小=border+padding+content",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c48tzt8sico0",
+                            "created": 1594982178112,
+                            "text": "flex弹性盒模型",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c48tb82i4n40",
+                    "created": 1594980251279,
+                    "text": "flex",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c48tc4nf3vk0",
+                            "created": 1594980322201,
+                            "text": "轴",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c48tccq8zsg0",
+                                    "created": 1594980339786,
+                                    "text": "主轴",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c48tcgmzt8g0",
+                                    "created": 1594980348297,
+                                    "text": "交叉轴",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c48tc7mizuo0",
+                            "created": 1594980328677,
+                            "text": "容器",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c48tcjgisq00",
+                                    "created": 1594980354435,
+                                    "text": "父容器",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c48tcqg3kg00",
+                                            "created": 1594980369647,
+                                            "text": "justify-content,控制主轴",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c48td8p1t0o0",
+                                                    "created": 1594980409371,
+                                                    "text": "位置排列",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c48teaf8q8g0",
+                                                            "created": 1594980491495,
+                                                            "text": "flex-start",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c48tedpty5c0",
+                                                            "created": 1594980498666,
+                                                            "text": "flex-end",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c48tef9dlrk0",
+                                                            "created": 1594980502025,
+                                                            "text": "center",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c48tdz8lxz40",
+                                                    "created": 1594980467150,
+                                                    "text": "分布排列",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c48tej2t0hs0",
+                                                            "created": 1594980510334,
+                                                            "text": "space-between",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c48temx3vdc0",
+                                                            "created": 1594980518697,
+                                                            "text": "space-around",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c48teze81so0",
+                                            "created": 1594980545853,
+                                            "text": "align-items,控制交叉轴",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c48tf7vlw0w0",
+                                                    "created": 1594980564319,
+                                                    "text": "位置排列",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c48tgonph4o0",
+                                                            "created": 1594980679211,
+                                                            "text": "属性同主轴",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c48tgkr90d40",
+                                                    "created": 1594980670718,
+                                                    "text": "基线排列",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c48th25ej5s0",
+                                                            "created": 1594980708579,
+                                                            "text": "baseline",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c48th54k7kw0",
+                                                    "created": 1594980715058,
+                                                    "text": "拉伸排列",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c48th73socg0",
+                                                            "created": 1594980719365,
+                                                            "text": "stretch",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c48tiexjrv40",
+                                            "created": 1594980814766,
+                                            "text": "flex-direction",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c48tiku1m1s0",
+                                                    "created": 1594980827615,
+                                                    "text": "row",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c48tix0vjaw0",
+                                                    "created": 1594980854149,
+                                                    "text": "column",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c48tiymvnm00",
+                                                    "created": 1594980857657,
+                                                    "text": "row-reverse",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c48tj1gum9k0",
+                                                    "created": 1594980863822,
+                                                    "text": "column-reverse",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c48tk04tnvc0",
+                                            "created": 1594980939283,
+                                            "text": "flex-wrap,设置换行方式",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c48tk8kslsg0",
+                                                    "created": 1594980957663,
+                                                    "text": "默认wrap",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c48tkcfur740",
+                                                    "created": 1594980966071,
+                                                    "text": "nowrap",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c48tkgixgco0",
+                                                    "created": 1594980974964,
+                                                    "text": "wrap-reverse",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c48tckw3vq80",
+                                    "created": 1594980357555,
+                                    "text": "子容器",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c48tkryle0g0",
+                                            "created": 1594980999856,
+                                            "text": "flex",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c48tl0sn2rk0",
+                                                    "created": 1594981019087,
+                                                    "text": "合写：flex-grow|flex-shrink|flex-basis",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c48tpnen1340",
+                                                            "created": 1594981381763,
+                                                            "text": "flex-grow",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c48twjuoqy80",
+                                                                    "created": 1594981922576,
+                                                                    "text": "默认为0；即使空间没有使用完，也不填充。",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c48twzm9q5k0",
+                                                                    "created": 1594981956895,
+                                                                    "text": "如果全部为1，即为等比例放大；如果一项为2，其他项为1，则前者占据的剩余空间要比后者多一倍",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c48tpqdxpfs0",
+                                                            "created": 1594981388251,
+                                                            "text": "flex-shink",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c48turyfeqg0",
+                                                                    "created": 1594981783487,
+                                                                    "text": "默认为1；空间不足时item将缩小，避免溢出容器",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c48tvoke33s0",
+                                                                    "created": 1594981854472,
+                                                                    "text": "如果有一项为0，其他项都为1，那么前者不缩小，其他项目等比例缩小",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c48tw5qqsv40",
+                                                            "created": 1594981891862,
+                                                            "text": "flex-basis",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c48tw9wqy4o0",
+                                                                    "created": 1594981900932,
+                                                                    "text": "默认值为auto,即项目本来的大小",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c48tlcop47c0",
+                                                    "created": 1594981044970,
+                                                    "text": "0  0  auto",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c48tkt0x28w0",
+                                            "created": 1594981002173,
+                                            "text": "align-self",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c48txiyvc3s0",
+                                                    "created": 1594981999016,
+                                                    "text": " 设置单个item的排列方式，可以和整体排列方式不一样；",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c48txjudnc00",
+                                                    "created": 1594982000921,
+                                                    "text": "属性同align-items",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c48tnhuq5qo0",
+                                            "created": 1594981212947,
+                                            "text": "order",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c48tnjw1zpc0",
+                                                    "created": 1594981217381,
+                                                    "text": "设置item的优先级,默认都是0，可为负，数字越大越考前",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c48txyr0z400",
+                            "created": 1594982033370,
+                            "text": "常用场景",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c48ty656ktc0",
+                                    "created": 1594982049463,
+                                    "text": "flex实现圣杯布局，左右两边宽度固定，中间宽度自适应",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c48tyncbmaw0",
+                                    "created": 1594982086900,
+                                    "text": "flex实现水平垂直居中",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c48tb9geeqo0",
+                    "created": 1594980254296,
+                    "text": "position",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c48tyz2bbps0",
+                            "created": 1594982112417,
+                            "text": "fixed",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c48u0pk199c0",
+                                    "created": 1594982248449,
+                                    "text": "脱离文档流",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c48tz22xtlc0",
+                            "created": 1594982118985,
+                            "text": "absolute",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c48u0ufvtq00",
+                                    "created": 1594982259081,
+                                    "text": "脱离文档流",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c48u182fp4w0",
+                                    "created": 1594982288743,
+                                    "text": "补充，transform不会脱离文档流",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c48tz4jxsuo0",
+                            "created": 1594982124366,
+                            "text": "relative",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c48tz8zsuf40",
+                            "created": 1594982134032,
+                            "text": "static",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c48tzbcse000",
+                            "created": 1594982139171,
+                            "text": "sticky",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c48u3uoyhyg0",
+                    "created": 1594982494723,
+                    "text": "过渡, transition",
+                    "layout": null,
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c48u45a58ww0",
+                            "created": 1594982517772,
+                            "text": "css  property",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c48u4yg4ij40",
+                            "created": 1594982581260,
+                            "text": "duration",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c48u8l1cq400",
+                                    "created": 1594982865525,
+                                    "text": "div {\n\t width: 0;\n\t height: 0;\n\t border-top: 100px solid red; \n\t border-right:100px solid transparent;\n\t transition: border 2s linear 1s;\n}\ndiv:hover {\n\tborder-top: 200px solid red;\n\tborder-right:200px solid transparent;\n}",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c48u52eh4yo0",
+                            "created": 1594982589867,
+                            "text": "time function",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c48u5ew011s0",
+                            "created": 1594982617049,
+                            "text": "delay",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c48u9ow1axs0",
+                    "created": 1594982952275,
+                    "text": "transform",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c48ua1tbgaw0",
+                            "created": 1594982980409,
+                            "text": "translate，平移",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c48ua45dleo0",
+                            "created": 1594982985491,
+                            "text": "rotate，旋转",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c48uag3rs0g0",
+                            "created": 1594983011516,
+                            "text": "scale，缩放",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c48uc2q7q6o0",
+                                    "created": 1594983139126,
+                                    "text": "test1 { width: 100px;\n\t height: 100px;\n\t background: pink;\n\topacity: 0.5;\n\ttransition: 0.5s;\n}\n.test1:hover{\n\t   transform: rotate(45deg)\n\n}",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c48uait4x8o0",
+                            "created": 1594983017403,
+                            "text": "skew",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c48uak9jgz40",
+                            "created": 1594983020572,
+                            "text": "matrix",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
