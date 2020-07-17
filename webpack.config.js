@@ -3,12 +3,26 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const ClassPropertiesPlugin = require('@babel/plugin-proposal-class-properties');
 
+//压缩 js 和 css
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+
 module.exports = {
+    optimization: {
+        minimizer: [
+            new UglifyJsPlugin({
+                cache: true,
+                parallel: true,
+                sourceMap: true
+            }),
+            new OptimizeCssAssetsPlugin()
+        ]
+    },
     mode: "development",
     devServer: {
         open: true,
         port: 8001,
-        
+
     },
     entry: './src/index.js',
     output: {
@@ -61,6 +75,6 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: 'main.css',
         })
-    ]
-
+    ],
+    devtool: 'source-map'
 }
