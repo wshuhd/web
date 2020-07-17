@@ -11,10 +11,12 @@ function WjHook() {
     useEffect(() => {
         console.log(`name is ${name}`)
     }, [name])
-    return (<div>
-        {count}
-        {name}
-    </div>)
+    return (
+        <div>
+            {count}
+            {name}
+        </div>
+    )
 }
 
 export default WjHook

@@ -1,0 +1,22 @@
+{
+    "root": {
+        "data": {
+            "id": "c48scank9xk0",
+            "created": 1594977514160,
+            "text": "MainTopic"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c48scegozs00",
+                    "created": 1594977522453,
+                    "text": "webpack"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
