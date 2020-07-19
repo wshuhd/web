@@ -10,7 +10,7 @@ function lazyLoadImage() {
                 continue;
             if (scrollTop + h <= img.offsetTop) {
                 continue;
-            }
+            }   
             let virtualImg = new Image();
             virtualImg.src = img.getAttribute('data-src');
             virtualImg.onload(() => {
